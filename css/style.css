@@ -452,6 +452,7 @@ navbar,
 .article-inner,
 #article-nav .article-nav-btn,
 .comment-card,
+.wl-comment-card,
 #page-nav #num-bar,
 #page-nav .page-nav-btn,
 .archive-main-card,
@@ -540,6 +541,7 @@ navbar,
 }
 .article-title,
 .comment-card .main-title,
+.wl-comment-card .main-title,
 .archive-main-card .archive-title {
   text-decoration: none;
   font-size: 32px;
@@ -555,6 +557,7 @@ navbar,
 @media screen and (max-width: 767px) {
   .article-title,
   .comment-card .main-title,
+  .wl-comment-card .main-title,
   .archive-main-card .archive-title {
     font-size: 28px;
   }
@@ -678,6 +681,7 @@ navbar,
 }
 :root #nav {
   height: 72px;
+  z-index: 10;
 }
 @media screen and (max-width: 767px) {
   :root #nav {
@@ -1879,6 +1883,28 @@ a.article-title:active {
 .tk-comments-container .tk-submit {
   position: relative;
   left: -70px;
+}
+.wl-comment-card {
+  padding: 32px 40px 0 40px;
+}
+.wl-comment-card * {
+  -webkit-transition: none;
+  -moz-transition: none;
+  -ms-transition: none;
+  transition: none;
+}
+.wl-comment-card .title-bar {
+  margin-bottom: 24px;
+}
+.wl-count {
+  color: var(--article-text);
+}
+.wl-panel {
+  background: var(--input-field);
+}
+:root {
+  --waline-theme-color: var(--primary-btn-bg);
+  --waline-active-color: var(--primary-btn-bg);
 }
 .archives-wrap {
   margin: 16px 0;
