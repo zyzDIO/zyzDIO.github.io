@@ -24,7 +24,7 @@
 <meta property="og:description" content="写在「开始」之前：由于笔者在学习这块内容时急于求成，可能有的地方有缺失或疏漏，并且笔者默认读者已经熟练掌握高中数学（默认为人教版教材），如有不足之处请在评论区指出，thx.. 函数与极限1）映射1.定义：  设 $A$ 与 $B$ 是两个非空集合，如果我们定义一种对应关系 $f$ , 使得对于 $A$ 中的每一个元素 $a$，通过 $f$ 处理之后，在 $B$ 中总有对应的唯一元素 $b$ 与其相">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2024-02-07T05:45:44.218Z">
-<meta property="article:modified_time" content="2024-03-08T12:23:18.886Z">
+<meta property="article:modified_time" content="2024-03-16T13:02:02.961Z">
 <meta property="article:author" content="John Doe">
 <meta property="article:tag" content="数学">
 <meta name="twitter:card" content="summary_large_image">
@@ -330,7 +330,7 @@
 <p>双曲正切： $\th x &#x3D; \frac{\sh x}{\ch x} &#x3D; \frac{e^x - e^{-x}}{e^x + e^{-x}}$，这是一个奇函数，在他的定义域上单调递增，而且函数夹在直线 $x &#x3D; 1$和直线 $x &#x3D; -1$ 中</p>
 <p>以上三个函数的定义域都是 $(-\infty, \infty)$</p>
 <p>以上三个函数的加减运算与三角函数和差化积公式类似，在此不多做赘述。</p>
-<h2 id="2）极限"><a href="#2）极限" class="headerlink" title="2）极限"></a>2）极限</h2><h3 id="1-数列的极限："><a href="#1-数列的极限：" class="headerlink" title="1.数列的极限："></a>1.数列的极限：</h3><h4 id="数列极限："><a href="#数列极限：" class="headerlink" title="数列极限："></a>数列极限：</h4><p>我们设有一个圆 $O$，我们在里面做圆内接正 $n$ 边形 $(n | 6 &#x3D; 0)$，设第一个图形的面积为 $A_1$，第二个为 $A_2…$，这样，这些内接多边形的面积</p>
+<h2 id="3）极限"><a href="#3）极限" class="headerlink" title="3）极限"></a>3）极限</h2><h3 id="1-数列的极限："><a href="#1-数列的极限：" class="headerlink" title="1.数列的极限："></a>1.数列的极限：</h3><h4 id="数列极限："><a href="#数列极限：" class="headerlink" title="数列极限："></a>数列极限：</h4><p>我们设有一个圆 $O$，我们在里面做圆内接正 $n$ 边形 $(n | 6 &#x3D; 0)$，设第一个图形的面积为 $A_1$，第二个为 $A_2…$，这样，这些内接多边形的面积</p>
 <p>$$A_1, A_2, A_3,…,A_n,…$$</p>
 <p>构成一个数列，当 $n$ 越大，正多边形的面积与圆的面积的差就越小，但无论 $n$ 有多么大，只要 $n$ 取定，$A_n$ 终究不等于圆的面积。因此，我们设想 $n → \infty$，即正多边形的边数无限增加，$A_n$就趋近于某个特定的值，这个值就是以上数列 ${A_n}$当 $n → \infty$时的<strong>极限</strong>。</p>
 <p>一个数列 ${x_n}$ 可以看作一个自变量关于正整数 $n$ 的一个函数 $x_n &#x3D; f(n),x \in \mathbb{N_+}$，当 $n$ 依次取所有正整数时，对应的函数值就构成一个数列 ${x_n}$</p>
@@ -364,7 +364,7 @@
 <h2 id="2）定积分"><a href="#2）定积分" class="headerlink" title="2）定积分:"></a>2）定积分:</h2><p>在说定积分前，我们首先考虑一个问题，如果我们要求一个函数 $f(x) &#x3D; x^2$ 在区间 $[x_0,x_n]$ 上与 $x$ 轴围成的面积，该怎么求呢？</p>
 <p>这是一个不规则图形，故无法直接使用公式来求。但是如果我们将这个图形所在的区间分为 $[x_0, x_1],[x_1,x_2],…,[x_{n - 1},x_n]$，并记这些区间的长度为 $\Delta x_1,\Delta x_2, \Delta x_3,…,\Delta x_n$，在每一个小区间 $[x_{i - 1}, i]$ 上任取一点 $\xi$，用底为 $\Delta x_i$， 高为 $f(\xi_i)$ 的矩形来逼近第 $i$ 个窄曲边梯形的面积，所以小矩形面积$S_i &#x3D; f(\xi_i)\Delta x_i$，故整个曲边梯形的面积就可以表示为：<br>$$<br>记 \lambda  &#x3D; \max_{i &#x3D; 1}^n {\Delta x_i}\<br>S &#x3D; \lim <em>{\lambda → \infty} \sum</em>{i &#x3D; 1} ^ n f(\xi_i)\Delta x_i<br>$$<br>然后我们就得到了定积分的定义：</p>
 <h3 id="1-定义：-1"><a href="#1-定义：-1" class="headerlink" title="1. 定义："></a>1. 定义：</h3><p>设函数 $f(x)$ 在闭区间 $[a,b]$上连续，将区间 $[a,b]$ 分为 $n$ 个区间 $[x_0,x_1],(x_2,x_3],…,(x_{n - 1},x_n]$，其中 $x_0 &#x3D; a,x_n &#x3D; b$，将每一个小区间的长度记作 $\Delta x_1,\Delta x_2, \Delta x_3,…,\Delta x_n$，记 $\lambda &#x3D; \max_{i &#x3D; 1}^ n{\Delta x_i}$，在每一个区间$[x_{i - 1}, x_i]$ 中取一点 $\xi_i$，当 $\lambda → \infty$时，极限 $$\lim_{\lambda → \infty} \sum_{i &#x3D; 1}^n f(\xi_i)\Delta x_i$$存在，那么我们就称这个极限为函数 $f(x)$ 在区间 $[a,b]$ 上的<strong>定积分</strong>，记作 $$S &#x3D; \lim_{\lambda → \infty} \sum_{i &#x3D; 1}^n f(\xi_i)\Delta x_i &#x3D; \int_a^b f(x) dx$$</p>
-<p>————————————————————分割线———————————————————-</p>
+<p>————————————————-分割线———————————————————-</p>
 <p><del>不是你们怎么还想看傅里叶级数啊，烦死了（）</del></p>
 <h1 id="傅里叶级数（谐波分析）"><a href="#傅里叶级数（谐波分析）" class="headerlink" title="傅里叶级数（谐波分析）"></a>傅里叶级数（谐波分析）</h1><h2 id="1-傅里叶级数的一般形式"><a href="#1-傅里叶级数的一般形式" class="headerlink" title="1) 傅里叶级数的一般形式"></a>1) 傅里叶级数的一般形式</h2><p>我们首先给出傅里叶级数的一般形式 </p>
 <p>$$f(t) &#x3D; \frac{a_0}{2}\sum_{n &#x3D; 1} ^ {\infty} [a_n \cos(n \omega t) + b_n \sin (n \omega t)]       (1)$$</p>
