@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>CSP-S2024游记</title>
+    <link href="/2024/11/16/CSP-S2024%E6%B8%B8%E8%AE%B0/"/>
+    <url>/2024/11/16/CSP-S2024%E6%B8%B8%E8%AE%B0/</url>
+    
+    <content type="html"><![CDATA[<h1 id="CSP-S-2024-游记"><a href="#CSP-S-2024-游记" class="headerlink" title="CSP-S 2024 游记"></a>CSP-S 2024 游记</h1><h2 id="Day-1"><a href="#Day-1" class="headerlink" title="Day -1"></a>Day -1</h2><p><del>其实我Day -2就去找班主任请好假了，但是那天除了请假没干什么事了</del></p><p><del>人是下午出发的，上午上了一上午的数理化生，导致下午神志不清（）</del></p><p>中午放学就回家了， 简单收拾了一下东西， 就出发了。上高速以后翻了一圈发现身份证没带，急忙打电话让老父亲给我送到了，拜谢老父亲&#x2F;bx&#x2F;bx&#x2F;bx（</p><p>熟悉的酒店， 熟悉的大道， 熟悉的校园。电脑没电了罚坐一小时终于是到了。在酒店加了个面基群，<del>发现群主竟然是学长 lcy</del></p><p>晚上去试机， 见到了MrPython ， Linge_Zzzz， Kayisama等一大堆人<del>感觉我去年CSP白来了</del> </p><p>这次的键盘感觉很好， 打起来很顺手，开心.jpg</p><p>晚上回宾馆以后学不太进去， 打了会老头环和 OSU， 就去睡觉了。sbh捧着电脑不知道看到几点，万幸他半夜没有吵醒我</p><p>教练竟然没来收电脑， 罕见。</p><h2 id="Day-1-1"><a href="#Day-1-1" class="headerlink" title="Day 1"></a>Day 1</h2><p>第二天早晨早早地醒了， 还是学不太进去， 打了一上午的只狼， 感觉这游戏体验感很爽（）</p><p>中午吃的不多， 怕吃得太多下午犯困，但事实是吃多少打到最后还是困（</p><p> 终于进考场了！考场里好热啊， 脱掉外套以后还是很热， 但是不管了。解压文件后看了一下输入输入文件， <del>没看出什么门道</del>，搓了一个缺省源等着发 pdf 密码</p><p>打开 pdf， T1 <del>什么游戏王</del> 看了一眼，发现是什么烂题，但还是调了半小时，原因为<code>#define int long long</code> 出于不明原因炸掉了，虚空调试了半小时， 火大，但最后还是切掉了</p><p>T2看了一眼超长的题干，发现只会做一问，所以直接跳过做了 T3，发现貌似是个线段树， 但是场上线段树斜挂了，打了个<del>大法师</del>dfs就滚蛋看T4了</p><p><del>T4是勾史吗，连题面都没看懂</del></p><p>代码先咕，等分出来再说（</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>游记</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>「CMOI R1」图上交互题 / Constructive Minimum Xor Path题解</title>
     <link href="/2024/10/05/Path%E9%A2%98%E8%A7%A3/"/>
     <url>/2024/10/05/Path%E9%A2%98%E8%A7%A3/</url>
