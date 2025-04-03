@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Duce.Travel 渡星旅
-subtitle: '『引渡迷津之星，启明者也。』'
-description: "Duce.X's Blog"
+title: __DIOsama__
+subtitle: 
+description: __DIOsama__のBlog
 keywords:
-author: Duce.X 渡星
+author: __DIOsama__
 language: zh-CN
 timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://ducex.github.io/Travel/
+url: https://zyzdio.github.io/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
