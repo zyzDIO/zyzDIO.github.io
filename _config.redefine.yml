@@ -164,7 +164,7 @@ home_banner:
     # Whether to enable
     enable: false
     # Social links style
-    style: default # default, reverse, center
+    style: 默认 # default, reverse, center
     # Social links
     links:
       github:  # your GitHub URL
@@ -200,9 +200,9 @@ navbar:
       path: / 
       icon: fa-regular fa-house # can be empty
       
-  Friends:
-    icon: fa-solid fa-link #图标
-    path: /links/
+    Friends:
+      icon: fa-solid fa-link #图标
+      path: /links/
     Archives: 
       path: /archives 
       icon: fa-regular fa-archive # can be empty
