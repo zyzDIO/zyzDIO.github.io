@@ -7,3 +7,29 @@
         avatar: 头像
         thumbnail: 预览图（has_thumbnail 为 true 时才需要）
  
+ -links_category: 本站站长
+  has_thumbnail: true
+  list:
+      - name: __DIOsama__
+        link: http://www.luogu.com.cn/user/751866
+        description: 本站站长
+        avatar: https://cdn.luogu.com.cn/upload/usericon/751866.png
+        thumbnail: https://cdn.luogu.com.cn/upload/image_hosting/gpe7aot5.png
+
+-links_category: LZYZ 2023级OIer
+  has_thubnail: true
+  list:
+      - name: Duce_X
+        link: https://www.luogu.com.cn/user/755664
+        description: 『引渡迷津之星，启明者也。』
+        avatar: https://cdn.luogu.com.cn/upload/usericon/755664.png
+        thumbnail: https://cdn.luogu.com.cn/upload/image_hosting/1g6x9ibd.png
+
+-links_category: LZYZ 2023级OIer
+  has_thumbnail: true
+  list:
+      - name: Miangoa
+        link: https://www.luogu.com.cn/user/752257
+        description: 你见过星星粉碎的样子吗
+        avatar: https://cdn.luogu.com.cn/upload/usericon/752257.png
+        thumbnail: https://cdn.luogu.com.cn/upload/image_hosting/73lun8i6.png
