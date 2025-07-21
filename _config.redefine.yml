@@ -362,7 +362,7 @@ comment:
       clientSecret: 91e567061e7cc7621198339b80e4de66be05e47c # GitHub Application Client Secret
       repo: hexo-Issues # GitHub repository
       owner: zyzDIO # GitHub repository owner
-      proxy: # GitHub repository proxy
+      # proxy: # GitHub repository proxy
     # Twikoo comment system. See https://twikoo.js.org/
     twikoo:
       version: 1.6.40 # Twikoo version, do not modify if you dont know what it is
