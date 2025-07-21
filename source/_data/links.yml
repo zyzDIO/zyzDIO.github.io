@@ -7,7 +7,7 @@
         avatar: 头像
         thumbnail: 预览图（has_thumbnail 为 true 时才需要）
  
- -links_category: 本站站长
+ - links_category: 本站站长
   has_thumbnail: true
   list:
       - name: __DIOsama__
@@ -16,7 +16,7 @@
         avatar: https://cdn.luogu.com.cn/upload/usericon/751866.png
         thumbnail: https://cdn.luogu.com.cn/upload/image_hosting/gpe7aot5.png
 
--links_category: LZYZ 2023级OIer
+- links_category: LZYZ 2023级OIer
   has_thumbnail: true
   list:
       - name: Duce_X
@@ -25,7 +25,7 @@
         avatar: https://cdn.luogu.com.cn/upload/usericon/755664.png
         thumbnail: https://cdn.luogu.com.cn/upload/image_hosting/1g6x9ibd.png
 
--links_category: LZYZ 2023级OIer
+- links_category: LZYZ 2023级OIer
   has_thumbnail: true
   list:
       - name: Miangoa
