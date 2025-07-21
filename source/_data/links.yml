@@ -24,10 +24,7 @@
         description: 『引渡迷津之星，启明者也。』
         avatar: https://cdn.luogu.com.cn/upload/usericon/755664.png
         thumbnail: https://cdn.luogu.com.cn/upload/image_hosting/1g6x9ibd.png
-
-- links_category: LZYZ 2023级OIer
-  has_thumbnail: true
-  list:
+        
       - name: Miangoa
         link: https://www.luogu.com.cn/user/752257
         description: 你见过星星粉碎的样子吗
