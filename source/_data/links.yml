@@ -7,7 +7,7 @@
         avatar: 头像
         thumbnail: 预览图（has_thumbnail 为 true 时才需要）
  
- - links_category: 本站站长
+- links_category: 本站站长
   has_thumbnail: true
   list:
       - name: __DIOsama__
